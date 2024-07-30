@@ -1,0 +1,30 @@
+/*class we use a a full-stop
+and id we use a hashtag*/
+
+.logo {
+  height: 100px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+}
+
+.banner {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.characters {
+  height: 350px;
+  object-fit: cover;
+}
+p,.form{
+  margin:20px;
+
+}
+
+
+
+

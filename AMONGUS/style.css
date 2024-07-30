@@ -1,0 +1,125 @@
+body {
+  background-image: url(images/Starry.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* viewport height */
+  width: 100vw;
+  /* viewport width */
+  background-size: cover;
+}
+
+/*
+change the colour of the text.
+change the font family.
+change the font-size
+put the text in center.
+*/
+
+
+p {
+  color: white;
+  font-family: "Madimi One", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 100px;
+
+
+
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  top: 300px;
+  position: absolute;
+  left: -300px;
+
+  animation-name: Among-us;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+  @keyframes Among-us {
+    from {
+      left: -100%;
+      transform:rotate(0deg);
+    }
+    to {
+      left: 100%; 
+      transform:rotate(360deg);
+    }
+  }
+
+div > div {
+ display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+/* button{
+background-color:black;
+  border: 2px solid white;
+  color: white;
+   font-family: "Madimi One", sans-serif;
+  
+ 
+}
+
+ button:hover {background-color: #0f35cc}
+
+ button:active {
+   background-color: #0f35cc;
+   box-shadow: 0 5px #666;
+   transform: translateY(4px);
+ } */
+
+
+ 
+
+/* CSS */
+button {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family:"Madimi One", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  background-color: #29d4ff;
+  box-shadow: #144fff 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+button:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  button {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+/* Button Samples */
+/* https://getcssscan.com/css-buttons-examples
+   */
+

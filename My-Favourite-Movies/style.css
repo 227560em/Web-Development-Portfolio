@@ -1,0 +1,62 @@
+index.html {
+  height: 100%;
+  width: 100%;
+}
+/* .bungee-regular {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+body{
+  font-family: "Bungee", sans-serif;
+  margin-top:30px;
+  /* make everything in our website easy to move around.*/
+  display:flex;
+  /* horizontal layout */
+  justify-content: center;
+  flex-direction:column;
+  text-align:center;
+  font-size:25px;
+  /* space between each letter */
+  letter-spacing:1.5px;
+}
+/* changing text */
+#movies{
+  margin-bottom:30px;
+  font-size:40px;
+  /* font-style:italic; */
+  font-weight:bold;
+  /* container is the same size as the text */
+  display:inline;
+
+border-right:3px solid black;
+
+
+Animation: blink 0.7s infinite; 
+}
+
+
+@keyframes blink{
+  from{
+   
+    border-right-color:black;
+  }
+  to{
+   
+    border-right-color:transparent;
+    
+  }
+    
+  
+}
+
+img{
+  margin-top:30px;
+  border-radius:30px;
+  height:500px;
+  width:630px;
+  object-fit:cover;
+   
+}
+

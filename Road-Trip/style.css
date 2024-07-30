@@ -1,0 +1,123 @@
+body {
+  background-color: #d912d2;
+}
+
+#car {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  bottom: -12%;
+  left: 5%;
+  z-index: 3;
+
+
+}
+
+
+#Eiffel {
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  bottom: -13%;
+  left: 30%;
+  z-index: 1;
+
+
+  animation-name: Eiffel;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes Eiffel {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+
+#Big_Ben {
+  width: 500px;
+  height: 450px;
+  position: absolute;
+  bottom: -7%;
+  left: 37%;
+  z-index: 0;
+
+  animation-name: Big_Ben;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Big_Ben {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+
+#Mt {
+  width: 600px;
+  height: 900px;
+  position: absolute;
+  bottom: -11%;
+  left: 57%;
+  z-index: -1;
+
+  animation-name: mountains;
+  animation-duration: 13s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mountains {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+#Taj {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: -11%;
+  left: 57%;
+  z-index: 1;
+
+  animation-name: Taj;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Taj {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+#container {
+  width: 800px;
+  height: 600px;
+  border-bottom: 3px solid black;
+  position: relative;
+  overflow: hidden;
+}
