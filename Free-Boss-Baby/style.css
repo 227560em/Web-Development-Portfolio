@@ -1,0 +1,34 @@
+body{
+    font-family: "Madimi One", sans-serif;
+    background-image:url(images/BBB.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    height:100%;
+    text-align: center;
+}
+  
+
+
+
+.guessSubmit{
+   font-family: "Madimi One", sans-serif;
+  background-color:#30aadf;
+    border-radius: 25%;
+    height:40px;
+    width:125px;
+    border-color:#30aadf;
+}
+
+h3{
+color:#3bc43b;
+}
+
+.img{
+    width:300px;
+    height:auto;
+}
+
+
+    
+
+
