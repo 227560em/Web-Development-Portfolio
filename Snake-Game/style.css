@@ -1,0 +1,22 @@
+body{
+    font-family: "Madimi One", sans-serif;
+  text-align:center;
+  }
+canvas{
+  background-color: black;  
+  
+}
+#Snake{
+  position:relative;
+  height:50px;
+  width:50px;
+}
+#container{
+  display:flex;
+  /* horizontal wise */
+  justify-content:center;
+}
+p{
+  padding:5px;
+  
+}
