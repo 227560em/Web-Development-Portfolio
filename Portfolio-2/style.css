@@ -1,0 +1,109 @@
+img {
+  height: 200px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+body {
+  font-family: "Madimi One", serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-color: #0892fc;
+}
+
+.image-container {
+  position: relative;
+  width: 400px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  transition: transform 0.5s ease;
+}
+
+.image-container:hover {
+  transform: scale(1.05);
+  /* added to make the separation more clear */
+  background-color: #37cdcb;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.group {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #2fb5b3;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 10px;
+  /* add responsiveness */
+  flex-wrap: wrap;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  /* padding: top/bottom left/right */
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #9e9e9e;
+}
+
+nav {
+  background-color: #32808f;
+  padding: 8px;
+  flex-wrap: wrap;
+}
+
+ul {
+  margin: 0;
+}
+
+#header,
+footer {
+  background-color: #32808f;
+  margin: 0;
+  padding: 15px;
+}
+
+#about {
+  background-color: #2fb5b3;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  /* align text to the left  */
+  text-align: left;
+}
+
+/* change colors during responsiveness of different devices */
+/* laptop larger than 1024px */
+@media (min-width:1023px) {
+  body {
+    background-color: #0892fc;
+  }
+}
+
+/* ipad 768 - 1024px */
+@media (min-width:768px) and (max-width:1022px) {
+  body {
+    background-color: #002e8a;
+  }
+}
+
+/* iphone 14 smaller than 430px */
+@media (max-width:430px) {
+  body {
+    background-color: #384e70;
+  }
+}
