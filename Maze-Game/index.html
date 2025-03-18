@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Maze Game</title>
+  <link rel="stylesheet" href=style.css> 
+</head>
+<body>
+  <section>
+    <!-- we are going to add a few styling properties in html -->
+    <div id="wrapper" style="margin-left:auto; margin-right:auto;"">
+      <h1 id="heading" style="background-color:#605c7d; color:white; width:40%; margin-top:10px; margin-bottom:10px;">Maze Game</h1>
+      <div id="maze">
+        <p style="text-align:center; margin-bottom:10px;">Make your way out of the Maze in 30 seconds, or else there will be severe consequences...</p>
+        <div id="moves"
+        style="margin-left:auto; margin-right:auto;margin-bottom:10px; text-align:center; width:10%; font-size:large;"></div>
+        <!--Moves: 0-->
+        <canvas width="523" height="523" style="margin-left:auto; margin-right:auto;" id="canvas">
+          This text is displayed if your browser does not support the HTML5 Canvas.
+        </canvas>
+        <div id="timerel"
+        style="margin-left:auto;margin-right:auto; text-align:center;margin-top:0px; width:15%; font-size:large;"> </div>
+    </div>
+    <!-- pop up and in HTML it's called a modal -->
+    <div id="myModal" class="modal">
+      <!-- modal content: -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- represents the multiplication symbol for closing the pop up -->
+          <span class="close">&times;</span>
+          <h2 class="gamehead">You Died!!</h2>
+        </div>
+          <div class="modal-footer">
+            <h2 id="demo"onmouseover="" style="cursor:pointer;">Try Again?</h2>
+     
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<script src=script.js></script>
+</body>
+
+</html>
